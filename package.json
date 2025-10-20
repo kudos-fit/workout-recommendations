@@ -1,0 +1,41 @@
+{
+  "name": "workout-recommendations",
+  "version": "1.0.0",
+  "description": "AI-powered workout recommendation system take-home assessment",
+  "private": true,
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently \"yarn workspace server dev\" \"yarn workspace web dev\"",
+    "dev:server": "yarn workspace server dev",
+    "dev:client": "yarn workspace web dev",
+    "build": "yarn workspace server build && yarn workspace web build",
+    "build:server": "yarn workspace server build",
+    "build:client": "yarn workspace web build",
+    "db:setup": "yarn workspace server db:setup",
+    "db:run": "yarn workspace server db:run",
+    "start": "yarn workspace server start",
+    "test": "yarn workspace server test",
+    "lint": "yarn workspace server lint && yarn workspace web lint",
+    "type-check": "yarn workspace server type-check && yarn workspace web type-check"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "keywords": [
+    "workout",
+    "recommendation",
+    "ai",
+    "openai",
+    "graphql",
+    "react",
+    "typescript"
+  ],
+  "author": "Kickoff Engineering Team",
+  "license": "MIT"
+}

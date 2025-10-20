@@ -1,0 +1,18 @@
+# User Queries
+query GetMe {
+  me {
+    id
+    email
+    name
+    fitnessLevel
+    preferences {
+      difficulty
+      duration
+      muscleGroups
+      equipment
+      goals
+    }
+    createdAt
+    updatedAt
+  }
+}
