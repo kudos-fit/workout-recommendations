@@ -189,8 +189,9 @@ CORS_ORIGIN=http://localhost:3000
 
 This is a starter project. To complete the assessment, you'll need to:
 
-1. **Implement the React frontend**
-2. **Implement the Recommendation System**
+1. **Follow the instructions attached to email**
+2. **Implement the React frontend as specified in the instructions**
+3. **Implement the Recommendation System as specified in the instructions**
 
 ## 🆘 Getting Help
 
