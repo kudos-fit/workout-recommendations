@@ -49,5 +49,3 @@ CREATE INDEX idx_workouts_difficulty ON workouts (difficulty);
 CREATE INDEX idx_workouts_duration ON workouts (duration_minutes);
 
 CREATE INDEX idx_workouts_muscle_groups ON workouts (muscle_groups);
-
-END;
